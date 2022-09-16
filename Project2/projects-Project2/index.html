@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOCK OOPS!</title>
+    <link type="text/css" href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <!-- the main game container -->
+    <div id="gameContainer"> 
+
+        <!-- this contains the block  -->
+        <div id="block">
+            <img src="dibel.png">
+        </div>
+        
+        <!-- this contains the character -->
+        <div id="character">
+            <img id="charImg" src="ava.png" >     
+        </div>
+        
+        <!-- these are the buttons to start the game, change character and change background -->
+            <button id="startBtn">ST<span id="eegg">A</span>RT THE GAME NOW</button>
+            <button id="changeBtn" onclick="characterChange()">SW<span id="eegg">I</span>TCH CHARACTER</button>
+            <button id="alertBoxBtn" onclick="howToAlertBox()"><span id="eegg">K</span>NOW HOW TO PLAY THE GAME</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
