@@ -1,60 +1,76 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+    padding: 5px;
+    margin: 5px;
 }
-body{
-    background-image: url(/blockoops7.png);
+
+body {
+    background-image: url(blockoopslogo.png);
     background-position: center;
-    background-size:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    overflow: hidden;
 }
-#gameContainer{
-    width: 300px;
-    height:500px;
+
+#gameContainer {
+    width: 1000px;
+    height: 400px;
     background-color: white;
-    border: solid 3px black ;
+    border: solid 3px black;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 310px;
     border-radius: 10px;
     box-sizing: border-box;
 }
-#character{
-    width:  100px;
+
+#character {
+    width: 100px;
     height: 100px;
     position: relative;
-    top: 300px;
-    left: 0px;   
+    top: 200px;
+    left: 0px;
 }
-img{ width: 100px;
-     height: 100px;
+
+img {
+    width: 100px;
+    height: 100px;
 }
-#block{
-    width:  100px;
+
+#block {
+    width: 100px;
     height: 100px;
     position: relative;
 }
-#startBtn, #changeBtn, #alertBoxBtn{
-    width:  300px;
+
+#startBtn,
+#changeBtn,
+#alertBoxBtn {
+    width: 300px;
     height: 50px;
-    border: solid 2px black ;
+    font-size: medium;
+    font-weight: bold;
+    border: solid 2px black;
     border-radius: 10px;
     position: relative;
-     left: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    top: 230px;
+    left: 1.5%;
 }
-#startBtn{top: 320px;}
-#changeBtn{top: 330px;}
-#alertBoxBtn{top: 340px;}
 
-#leftSide, #rightSide{
-    width: 50%;
-    position: absolute;
-    height: 50px;
+#eegg {
+    color: crimson;
 }
- #right{left: 50%;}
-
 
 /* animation for the block to slide down */
 
-@keyframes slideDown{
-    0%{top:0px;}
-    90%{top: 400px;}
+@keyframes slideDown {
+    0% {
+        top: 0px;
+    }
+
+    90% {
+        top: 300px;
+    }
 }
