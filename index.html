@@ -10,22 +10,23 @@
 <body>
   <!-- the main game container -->
     <div id="gameContainer"> 
-
         <!-- this contains the block  -->
         <div id="block">
-            <img src="dibel.png">
+            <img src="/dibel.png">
         </div>
-        
         <!-- this contains the character -->
         <div id="character">
-            <img id="charImg" src="ava.png" >     
+            <img id="charImg" src="/ava.png" >     
         </div>
-        
-        <!-- these are the buttons to start the game, change character and change background -->
-            <button id="startBtn">ST<span id="eegg">A</span>RT THE GAME NOW</button>
-            <button id="changeBtn" onclick="characterChange()">SW<span id="eegg">I</span>TCH CHARACTER</button>
-            <button id="alertBoxBtn" onclick="howToAlertBox()"><span id="eegg">K</span>NOW HOW TO PLAY THE GAME</button>
+            <!-- these are the buttons to start the game, change character and change background -->
+            <button id="startBtn">START THE GAME NOW</button>
+            <button id="changeBtn" onclick="characterChange()">CHANGE CHARACTER</button>
+            <button id="alertBoxBtn" onclick="howToAlertBox()">HOW TO PLAY THE GAME</button>
+        <!-- these are for the touchstart for mobile version -->
+        <div id="leftTouch"></div>
+        <div id="rightTouch"></div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
