@@ -9,8 +9,8 @@ body {
     background-repeat: no-repeat;
     background-size:cover;
 
-    /* background-clip: border-box; */
-    /* overflow: hidden; */
+    background-clip: border-box; 
+     overflow: hidden;
 }
 
 #gameContainer {
