@@ -116,4 +116,11 @@ img {
         justify-content: center;
         position: relative;
     }
+
+    #startBtn,
+#changeBtn,
+#alertBoxBtn {
+    font-size: large;
+   
+}
 }
