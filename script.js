@@ -32,7 +32,7 @@ function moveRight() {
   );
   moveSound.play();
   left += 100;
-  if (left <= 900) {
+  if (left <= 200) {
     character.style.left = `${left}px`;
   }
 }
@@ -50,7 +50,7 @@ document.addEventListener("keydown", function (event) {
 let scoreCounter = 0;
 let block = document.getElementById("block");
 block.addEventListener("animationiteration", () => {
-  let randomWay = Math.floor(Math.random() * 9);
+  let randomWay = Math.floor(Math.random() * 3);
   left = randomWay * 100;
   block.style.left = `${left}px`;
   scoreCounter++;
@@ -68,7 +68,7 @@ setInterval(function () {
     window.getComputedStyle(block).getPropertyValue("top")
   );
 
-  if (characterLeft == blockLeft && blockTop >= 200) {
+  if (characterLeft == blockLeft && blockTop >= 300) {
     gameOverSound.play();
     alert(`OOPS! YOU LOSE!  SCORE:  ${scoreCounter}`);
     gameReset();

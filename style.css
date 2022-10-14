@@ -1,24 +1,24 @@
 * {
-    padding: 5px;
-    margin: 5px;
+    padding: 0px;
+    margin: 0px;
 }
 
 body {
-    background-image: url(blockoopslogo.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-clip: border-box;
-    overflow: hidden;
+    background-image: url(blockoopsofficalbg.png);
+    background-position:center;
+    background-size:cover;
+
+    /* background-clip: border-box; */
+    /* overflow: hidden; */
 }
 
 #gameContainer {
-    width: 1000px;
-    height: 400px;
+    width: 300px;
+    height: 500px;
     background-color: white;
     border: solid 3px black;
     margin: auto;
-    margin-top: 310px;
+    margin-top: 50px;
     border-radius: 10px;
     box-sizing: border-box;
 }
@@ -27,7 +27,7 @@ body {
     width: 100px;
     height: 100px;
     position: relative;
-    top: 200px;
+    top: 300px;
     left: 0px;
 }
 
@@ -42,21 +42,41 @@ img {
     position: relative;
 }
 
+#cmd-bttns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 310px;
+    margin-left: 150px;
+    padding: 5px;
+    padding-left: 10px;
+    /* top: 250px;
+    left: 1.5%; */
+}
 #startBtn,
 #changeBtn,
 #alertBoxBtn {
     width: 300px;
     height: 50px;
-    font-size: medium;
+    text-align: center;
+    font-size: xx-small;
     font-weight: bold;
     border: solid 2px black;
     border-radius: 10px;
+    background-color: black;
+    color: white;
+    /* margin-left: auto;
+    padding-left: 5px;
+    padding-right: 5px; */
     position: relative;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+    align-items:center;
+    justify-content:center;
+    padding: 10px;
     margin: 10px;
-    top: 230px;
-    left: 1.5%;
+   
 }
 
 #eegg {
@@ -74,3 +94,6 @@ img {
         top: 300px;
     }
 }
+
+
+/* ---------------------MEDIA QUERY------------------------ */
