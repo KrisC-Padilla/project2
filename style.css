@@ -118,9 +118,9 @@ img {
     }
 
     #startBtn,
-#changeBtn,
-#alertBoxBtn {
+    #changeBtn,
+    #alertBoxBtn {
     font-size: large;
-   
+    margin: 5px;
 }
 }
