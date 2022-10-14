@@ -107,3 +107,30 @@ img {
 
 
 /* ---------------------MEDIA QUERY------------------------ */
+
+@media only screen and (min-width: 1200px){
+#startBtn,
+#changeBtn,
+#alertBoxBtn {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-size: xx-small;
+    font-weight: bold;
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    /* margin-left: auto;
+    padding-left: 5px;
+    padding-right: 5px; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding: 10px;
+    margin: 10px;
+   
+}
+}
