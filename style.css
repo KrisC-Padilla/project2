@@ -23,6 +23,16 @@ body {
     box-sizing: border-box;
 }
 
+#left, #right{
+    width: 50%;
+    position:absolute;
+    height: 500px;
+}
+
+#right{
+    left: 50%;   
+}
+
 #character {
     width: 100px;
     height: 100px;
