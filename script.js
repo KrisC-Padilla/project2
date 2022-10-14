@@ -102,6 +102,6 @@ function characterChange() {
 //function to change background in the game container
 function howToAlertBox() {
   alert(
-    "Thank you for playing Block Oops! We hope you'll find it fun to play with. You can choose between three characters: AVA, IAN and KRIS. To play the game, use your arrow keys to move the character from left to right. Avoid being hit by DIBEL (the monster block in town!) to get a point. Hope you enjoy! Thank you."
+    "Thank you for playing Block Oops! We hope you'll find it fun to play with. You can choose between three characters: AVA, IAN and KRIS.To play the game, use your arrow keys (for PC) or tap the left or right side of your screen (for Mobile) to move the character. Avoid being hit by DIBEL (the monster block in town!) to get a point. Hope you enjoy! Thank you."
   );
 }
