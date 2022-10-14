@@ -75,6 +75,9 @@ setInterval(function () {
   }
 }, 1);
 
+document.getElementById("left").addEventListener("touchstart", moveLeft);
+document.getElementById("right").addEventListener("touchstart", moveRight);
+
 //function to reset the game
 function gameReset() {
   scoreCounter = 0;
