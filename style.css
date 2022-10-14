@@ -5,7 +5,8 @@
 
 body {
     background-image: url(blockoopsofficalbg.png);
-    background-position:center;
+    background-position:center center;
+    background-repeat: no-repeat;
     background-size:cover;
 
     /* background-clip: border-box; */
@@ -59,7 +60,7 @@ img {
     justify-content: center;
     position: relative;
     margin: 310px;
-    margin-left: 130px;
+    margin-left: 140px;
     padding: 5px;
     padding-left: 10px;
     /* top: 250px;
