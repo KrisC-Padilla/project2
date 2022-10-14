@@ -117,3 +117,7 @@ img {
         position: relative;
     }
 }
+
+body {
+    background-image: url(blockoopsfinal.png);
+}
